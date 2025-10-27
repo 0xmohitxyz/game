@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Random Number & Discount</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="wrap" role="main">
+    <h1 class="title">Press button below to generate a number</h1>
+    <p class="hint">Generates a random number from 0–100 and shows your discount.</p>
+
+    <section class="center">
+      <button id="generateBtn" class="circle-btn" aria-label="Generate random number">
+        Generate
+      </button>
+
+      <div>
+        <div class="label">Random number</div>
+        <div id="number" class="num">—</div>
+      </div>
+
+      <div>
+        <div class="label">Your discount</div>
+        <div id="discount" class="discount">—</div>
+      </div>
+    </section>
+
+    <section class="row" aria-label="Details">
+      <div class="pill">Range: 0 to 100</div>
+      <div class="pill">Discount: (n/10)%</div>
+    </section>
+  </main>
+
+<script src="script.js"></script>
+</body>
+</html>
